@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fenix — Minecraft сервер | Мир греческих богов</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">FENIX</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О сервере</a></li>
+                <li><a href="#mechanics">Механики</a></li>
+                <li><a href="#rules">Правила</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#join">Играть</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-up">
+                <span class="title-glow">FENIX</span>
+            </h1>
+            <p class="hero-subtitle animate-fade-up delay-1">
+                Путешествие в мир древнегреческих богов
+            </p>
+            <p class="hero-description animate-fade-up delay-2">
+                SMP сервер с уникальными механиками, боссами и эпическими приключениями
+            </p>
+            <div class="hero-buttons animate-fade-up delay-3">
+                <a href="#join" class="btn btn-primary">
+                    <span>Начать играть</span>
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+                <a href="#about" class="btn btn-secondary">Подробнее</a>
+            </div>
+            <div class="hero-stats animate-fade-up delay-4">
+                <div class="stat">
+                    <span class="stat-number" data-count="100">0</span>
+                    <span class="stat-label">Игроков онлайн</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="12">0</span>
+                    <span class="stat-label">Богов-покровителей</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-count="6">0</span>
+                    <span class="stat-label">Боссов-богов</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Листай вниз</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration"></span>
+                О сервере
+                <span class="title-decoration"></span>
+            </h2>
+            <div class="about-content">
+                <div class="about-text reveal-left">
+                    <h3>Добро пожаловать на Олимп</h3>
+                    <p>
+                        Fenix — это уникальный SMP сервер, погружающий вас в мир древнегреческой мифологии. 
+                        Выберите своего бога-покровителя, выполняйте божественные квесты, 
+                        сражайтесь с мифическими существами и стройте свою империю.
+                    </p>
+                    <p>
+                        Наш сервер сочетает классический Minecraft геймплей с уникальными механиками, 
+                        созданными специально для погружения в атмосферу Древней Греции.
+                    </p>
+                    <ul class="features-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                            </svg>
+                            <span>12 богов-покровителей с уникальными способностями</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                            </svg>
+                            <span>Система квестов от олимпийцев</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                            </svg>
+                            <span>Дружелюбное комьюнити и активная администрация</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                            </svg>
+                            <span>Регулярные ивенты и обновления</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about-image reveal-right">
+                    <div class="image-frame">
+                        <!-- Placeholder для изображения -->
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 24 24" fill="currentColor" class="placeholder-icon">
+                                <path d="M21 3H3C2 3 1 4 1 5V19C1 20 2 21 3 21H21C22 21 23 20 23 19V5C23 4 22 3 21 3ZM5 17L8.5 12.5L11 15.51L14.5 11L19 17H5Z"/>
+                            </svg>
+                            <span>Скриншот сервера</span>
+                            <p>images/server-main.png</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mechanics Section -->
+    <section id="mechanics" class="mechanics">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration"></span>
+                Уникальные механики
+                <span class="title-decoration"></span>
+            </h2>
+            <div class="mechanics-grid">
+                <div class="mechanic-card reveal-up" style="--delay: 0">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                    </div>
+                    <h3>Боссы-Боги</h3>
+                    <p>Сражайся с легендарными боссами, вдохновлёнными греческой мифологией, и получай уникальные награды</p>
+                </div>
+                <div class="mechanic-card reveal-up" style="--delay: 1">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8C20.9996 7.6493 20.9071 7.30481 20.7315 7.00018C20.556 6.69554 20.3037 6.44174 20 6.26L13 2.26C12.696 2.07819 12.3511 1.98245 12 1.98245C11.6489 1.98245 11.304 2.07819 11 2.26L4 6.26C3.69626 6.44174 3.44398 6.69554 3.26846 7.00018C3.09294 7.30481 3.00036 7.6493 3 8V16C3.00036 16.3507 3.09294 16.6952 3.26846 16.9998C3.44398 17.3045 3.69626 17.5583 4 17.74L11 21.74C11.304 21.9218 11.6489 22.0176 12 22.0176C12.3511 22.0176 12.696 21.9218 13 21.74L20 17.74C20.3037 17.5583 20.556 17.3045 20.7315 16.9998C20.9071 16.6952 20.9996 16.3507 21 16Z"/>
+                            <path d="M3.27 6.96L12 12.01L20.73 6.96"/>
+                            <path d="M12 22.08V12"/>
+                        </svg>
+                    </div>
+                    <h3>Уникальные предметы</h3>
+                    <p>Добывай редкие артефакты и легендарное оружие с особыми свойствами</p>
+                </div>
+                <div class="mechanic-card reveal-up" style="--delay: 2">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+                            <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Лор и история</h3>
+                    <p>Погрузись в историю мира Древней Греции, раскрытую через окружение и механики</p>
+                </div>
+                <div class="mechanic-card reveal-up" style="--delay: 3">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21V19C17 16.7909 15.2091 15 13 15H5C2.79086 15 1 16.7909 1 19V21"/>
+                            <path d="M9 11C11.2091 11 13 9.20914 13 7C13 4.79086 11.2091 3 9 3C6.79086 3 5 4.79086 5 7C5 9.20914 6.79086 11 9 11Z"/>
+                            <path d="M23 21V19C22.9986 17.1771 21.765 15.5857 20 15.13"/>
+                            <path d="M16 3.13C17.7699 3.58313 19.0078 5.17799 19.0078 7.005C19.0078 8.83201 17.7699 10.4269 16 10.88"/>
+                        </svg>
+                    </div>
+                    <h3>SMP сообщество</h3>
+                    <p>Строй, выживай и взаимодействуй с другими игроками в дружелюбной атмосфере</p>
+                </div>
+                <div class="mechanic-card reveal-up" style="--delay: 4">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polygon points="10 8 16 12 10 16 10 8"/>
+                        </svg>
+                    </div>
+                    <h3>Ивенты и активности</h3>
+                    <p>Участвуй в регулярных мероприятиях и получай эксклюзивные награды</p>
+                </div>
+                <div class="mechanic-card reveal-up" style="--delay: 5">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/>
+                            <path d="M2 12H22"/>
+                            <path d="M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2Z"/>
+                        </svg>
+                    </div>
+                    <h3>Уникальный мир</h3>
+                    <p>Исследуй специально созданные локации в стиле Древней Греции</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules" class="rules">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration"></span>
+                Правила сервера
+                <span class="title-decoration"></span>
+            </h2>
+            <p class="section-subtitle">Соблюдай простые правила и наслаждайся игрой</p>
+            <div class="rules-grid">
+                <div class="rule-card reveal-up">
+                    <div class="rule-number">01</div>
+                    <h3>Уважение к игрокам</h3>
+                    <p>Никакой дискриминации по происхождению. Русский, украинец — неважно, все равны на сервере.</p>
+                </div>
+                <div class="rule-card reveal-up">
+                    <div class="rule-number">02</div>
+                    <h3>Честная игра</h3>
+                    <p>Запрещено использование читов, эксплойтов и любых сторонних программ, дающих преимущество.</p>
+                </div>
+                <div class="rule-card reveal-up">
+                    <div class="rule-number">03</div>
+                    <h3>Уважение к стримерам</h3>
+                    <p>Не устраивай провокации перед стримерами и не порть им трансляции.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration"></span>
+                Галерея
+                <span class="title-decoration"></span>
+            </h2>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 3H3C2 3 1 4 1 5V19C1 20 2 21 3 21H21C22 21 23 20 23 19V5C23 4 22 3 21 3ZM5 17L8.5 12.5L11 15.51L14.5 11L19 17H5Z"/>
+                        </svg>
+                        <span>images/gallery-1.png</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 3H3C2 3 1 4 1 5V19C1 20 2 21 3 21H21C22 21 23 20 23 19V5C23 4 22 3 21 3ZM5 17L8.5 12.5L11 15.51L14.5 11L19 17H5Z"/>
+                        </svg>
+                        <span>images/gallery-2.png</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 3H3C2 3 1 4 1 5V19C1 20 2 21 3 21H21C22 21 23 20 23 19V5C23 4 22 3 21 3ZM5 17L8.5 12.5L11 15.51L14.5 11L19 17H5Z"/>
+                        </svg>
+                        <span>images/gallery-3.png</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 3H3C2 3 1 4 1 5V19C1 20 2 21 3 21H21C22 21 23 20 23 19V5C23 4 22 3 21 3ZM5 17L8.5 12.5L11 15.51L14.5 11L19 17H5Z"/>
+                        </svg>
+                        <span>images/gallery-4.png</span>
+                    </div>
+                </div>
+                <div class="gallery-item tall">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 3H3C2 3 1 4 1 5V19C1 20 2 21 3 21H21C22 21 23 20 23 19V5C23 4 22 3 21 3ZM5 17L8.5 12.5L11 15.51L14.5 11L19 17H5Z"/>
+                        </svg>
+                        <span>images/gallery-5.png</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 3H3C2 3 1 4 1 5V19C1 20 2 21 3 21H21C22 21 23 20 23 19V5C23 4 22 3 21 3ZM5 17L8.5 12.5L11 15.51L14.5 11L19 17H5Z"/>
+                        </svg>
+                        <span>images/gallery-6.png</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section id="join" class="join">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration"></span>
+                Начни своё приключение
+                <span class="title-decoration"></span>
+            </h2>
+            <div class="join-content">
+                <div class="server-info">
+                    <div class="info-card">
+                        <h3>Версия</h3>
+                        <span class="version">1.21.11</span>
+                    </div>
+                    <div class="info-card">
+                        <h3>Слотов</h3>
+                        <span class="version">100</span>
+                    </div>
+                    <div class="info-card">
+                        <h3>Статус</h3>
+                        <div class="online-status">
+                            <span class="status-dot"></span>
+                            <span>Сервер онлайн</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://t.me/FenixServerMC" class="social-link telegram" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                        </svg>
+                        <span>Telegram</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@fen1x.server" class="social-link tiktok" target="_blank">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        </svg>
+                        <span>TikTok</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">FENIX</span>
+                    <p>Minecraft сервер с атмосферой Древней Греции</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О сервере</a></li>
+                        <li><a href="#mechanics">Механики</a></li>
+                        <li><a href="#gallery">Галерея</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Информация</h4>
+                    <ul>
+                        <li><a href="#rules">Правила</a></li>
+                        <li><a href="#join">Присоединиться</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Fenix Server. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
